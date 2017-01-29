@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  root 'application#hello_world'
+  root 'debt_transfer#home'
 end
