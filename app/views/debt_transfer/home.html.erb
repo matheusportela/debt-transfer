@@ -2,12 +2,18 @@
 
 <p>Saiba se vale a pena parcelar o seu Cartão de Crédito ou mudar de modalidade</p>
 
-<form>
-    <input type="text" name="invoice-value" placeholder="Valor da Fatura" required>
-    <input type="text" name="invoice-month" placeholder="Mês da Fatura" required>
-    <input type="text" name="minimum-charge" placeholder="Parcela Mínima" required>
-    <input type="submit" value="Diga lá">
-</form>
+<%= form_tag '/simulate', method: 'get' do %>
+    <%= label_tag(:invoice_value, "Valor da Fatura") %>
+    <%= text_field_tag(:invoice_value) %>
+
+    <%= label_tag(:invoice_month, "Mês da Fatura") %>
+    <%= text_field_tag(:invoice_month) %>
+
+    <%= label_tag(:minimum_charge, "Parcela Mínima") %>
+    <%= text_field_tag(:minimum_charge) %>
+
+    <%= submit_tag("Diga lá") %>
+<% end %>
 
 <table>
     <thead>
