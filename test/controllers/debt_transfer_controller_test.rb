@@ -6,19 +6,6 @@ class DebtTransferControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
-  test "should have three debt modalities" do
-    controller = DebtTransferController.new
-    assert_equal 3, controller.debt_modalities.length
-  end
-
-  test "should have debt modalities details" do
-    controller = DebtTransferController.new
-
-    controller.debt_modalities.each do |modality_name, debt_modality|
-        assert_in_delta 0.5, debt_modality[:monthly_interest], 0.5
-    end
-  end
-
   test "should calculate total debt for one month" do
     controller = DebtTransferController.new
     assert_equal 110.00, controller.calculate_total_debt(debt: 100, months: 1,
@@ -37,19 +24,31 @@ class DebtTransferControllerTest < ActionDispatch::IntegrationTest
         debt: 100, monthly_payment: 50, monthly_interest: 0.1)
   end
 
-  test "should simulate total debt with different debt modalities" do
+  test "should get interest rate from real data" do
     controller = DebtTransferController.new
-    assert_equal 105.50, controller.simulate_debt(
-        debt: 100, monthly_payment: 50, debt_modality: :credit_card)
-    assert_equal 102.63, controller.simulate_debt(
-        debt: 100, monthly_payment: 50, debt_modality: :check)
-    assert_equal 100.51, controller.simulate_debt(
-        debt: 100, monthly_payment: 50, debt_modality: :payday_loan)
+    assert_equal 0.1028, controller.get_interest(debt_modality: :credit_card,
+      date: "03/2011")
+    assert_equal 0.1368, controller.get_interest(debt_modality: :check,
+      date: "03/2011")
+    assert_equal 0.0243, controller.get_interest(debt_modality: :payday_loan,
+      date: "03/2011")
   end
 
-  test "should find best debt modality" do
+  test "should get nil interest rate for dates out-of-scope" do
     controller = DebtTransferController.new
-    assert_equal :payday_loan, controller.find_best_debt(debt: 100,
-        monthly_payment: 50)[:debt_modality]
+    assert_nil controller.get_interest(debt_modality: :credit_card,
+      date: "01/2010")
+    assert_nil controller.get_interest(debt_modality: :credit_card,
+      date: "01/2017")
+    assert_nil controller.get_interest(debt_modality: :credit_card,
+      date: 2017)
+  end
+
+  test "should simulate credit card debt with real data" do
+    controller = DebtTransferController.new
+    assert_equal 105.67, controller.calculate_credit_card_debt(debt: 100,
+      due_date: "03/2011", minimum_charge: 50)
+    assert_equal 216.62, controller.calculate_credit_card_debt(debt: 200,
+      due_date: "01/2013", minimum_charge: 75)
   end
 end

@@ -1,0 +1,1278 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"month",
+				"monthly_payment"
+			],
+			[
+				"debt",
+				"debt_modality"
+			],
+			[
+				"mon",
+				"monthly_payment"
+			],
+			[
+				"simu",
+				"simulate_debt"
+			],
+			[
+				"calcu",
+				"calculate_total_debt_with_payments"
+			],
+			[
+				"de",
+				"debt_modality"
+			],
+			[
+				"monthly",
+				"monthly_interest"
+			],
+			[
+				"th",
+				"thead\tTag"
+			],
+			[
+				"librato",
+				"librato_s1search"
+			],
+			[
+				"update",
+				"update_cache"
+			],
+			[
+				"config",
+				"configuration"
+			],
+			[
+				"ser",
+				"service_id"
+			],
+			[
+				"root",
+				"root_config"
+			],
+			[
+				"module",
+				"module-header-anchor"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"co",
+				"content"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"query",
+				"query_string"
+			],
+			[
+				"quer",
+				"query_string"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"API",
+				"API_KEYS"
+			],
+			[
+				"delete_",
+				"delete_origin"
+			],
+			[
+				"poo",
+				"pool_configurations"
+			],
+			[
+				"ori",
+				"origins"
+			],
+			[
+				"create",
+				"create_monitor"
+			],
+			[
+				"moni",
+				"monitors"
+			],
+			[
+				"no",
+				"notifier_id"
+			],
+			[
+				"noti",
+				"notifier"
+			],
+			[
+				"creat",
+				"create_notifier"
+			],
+			[
+				"n",
+				"notifiers"
+			],
+			[
+				"upda",
+				"update_notifier"
+			],
+			[
+				"_ba",
+				"_base_headers"
+			],
+			[
+				"authori",
+				"authorized_keys"
+			],
+			[
+				"reboot",
+				"reboot_hint"
+			],
+			[
+				"delete",
+				"delete_all_charts"
+			],
+			[
+				"crea",
+				"create_charts"
+			],
+			[
+				"dele",
+				"delete_alerts"
+			],
+			[
+				"aler",
+				"alert_id"
+			],
+			[
+				"key",
+				"keywords"
+			],
+			[
+				"get",
+				"get_services"
+			],
+			[
+				"if",
+				"ifmain\tif __name__ == '__main__'"
+			],
+			[
+				"host",
+				"host_group"
+			],
+			[
+				"api-p",
+				"api-prod-dc3"
+			],
+			[
+				"ssh",
+				"ssh_key_filename"
+			],
+			[
+				"ls",
+				"ls_output"
+			],
+			[
+				"reset",
+				"reset_rate_limit"
+			],
+			[
+				"text-c",
+				"text-color-white"
+			],
+			[
+				"iptab",
+				"iptables-save"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"dis",
+				"displacedData"
+			],
+			[
+				"argu",
+				"argumentsRegex"
+			],
+			[
+				"par",
+				"parsedDisplacement"
+			],
+			[
+				"templa",
+				"template"
+			],
+			[
+				"replac",
+				"replaceDate"
+			],
+			[
+				"repla",
+				"replacedDates"
+			],
+			[
+				"tab",
+				"table-cell"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"pre-",
+				"pre-wrap"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"borde",
+				"border-top"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"pre",
+				"pre-wrap"
+			],
+			[
+				"exa",
+				"exampleCategory"
+			],
+			[
+				"has",
+				"has_failed_tests"
+			],
+			[
+				"test",
+				"tests_and_examples"
+			],
+			[
+				"is",
+				"is_date_only"
+			],
+			[
+				"date",
+				"date_only"
+			],
+			[
+				"parse",
+				"parse_datetime"
+			],
+			[
+				"resul",
+				"result_date"
+			],
+			[
+				"appl",
+				"apply_offset"
+			],
+			[
+				"resu",
+				"result_month"
+			],
+			[
+				"monh",
+				"months"
+			],
+			[
+				"time",
+				"timedelta"
+			],
+			[
+				"off",
+				"offset_date"
+			],
+			[
+				"con",
+				"convert_offset"
+			],
+			[
+				"dat",
+				"datetime"
+			],
+			[
+				"delta",
+				"delta_type"
+			],
+			[
+				"string",
+				"string_datetime"
+			],
+			[
+				"pars",
+				"parsed_date"
+			],
+			[
+				"value",
+				"value_second"
+			],
+			[
+				"conv",
+				"convert_string_to_datetime"
+			],
+			[
+				"tw",
+				"tweets"
+			],
+			[
+				"loa",
+				"loaded_tweet"
+			],
+			[
+				"json",
+				"json_data"
+			],
+			[
+				"save",
+				"save_file"
+			],
+			[
+				"js",
+				"json_data"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"tes",
+				"test_tweet_1"
+			],
+			[
+				"te",
+				"test_data"
+			],
+			[
+				"id",
+				"id_number"
+			],
+			[
+				"action",
+				"action_to_index"
+			],
+			[
+				"pacma",
+				"Pacman"
+			],
+			[
+				"sta",
+				"state_index"
+			],
+			[
+				"nu",
+				"num_actions"
+			],
+			[
+				"num",
+				"num_actions"
+			],
+			[
+				"new",
+				"new_action_index"
+			],
+			[
+				"inde",
+				"index_to_action"
+			],
+			[
+				"ac",
+				"action_to_index"
+			],
+			[
+				"previous",
+				"previous_action"
+			],
+			[
+				"lea",
+				"learn_algorithm"
+			],
+			[
+				"le",
+				"learn_algorithm"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"gho",
+				"ghosts_positions"
+			],
+			[
+				"ghos",
+				"ghosts_positions"
+			],
+			[
+				"pac",
+				"pacman_position"
+			],
+			[
+				"sco",
+				"scoreEvaluation"
+			],
+			[
+				"ghost",
+				"ghosts_positions"
+			],
+			[
+				"ass",
+				"assertEqual"
+			],
+			[
+				"a",
+				"assertRaises"
+			],
+			[
+				"as",
+				"assertRaises"
+			],
+			[
+				"q",
+				"q_values"
+			],
+			[
+				"lear",
+				"learner"
+			],
+			[
+				"ql",
+				"q_values"
+			],
+			[
+				"ex",
+				"excepted_action"
+			],
+			[
+				"expec",
+				"excepted_actions"
+			],
+			[
+				"re",
+				"reward"
+			],
+			[
+				"r",
+				"reward"
+			],
+			[
+				"s",
+				"state"
+			],
+			[
+				"expe",
+				"expected_current_state"
+			],
+			[
+				"current",
+				"current_state"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/portela/Programming/git/debt-transfer/config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 113,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/portela/Programming/git/debt-transfer/app/controllers/debt_transfer_controller.rb",
+			"settings":
+			{
+				"buffer_size": 2094,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "simulate.html.erb",
+			"settings":
+			{
+				"buffer_size": 131,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "home.html.erb",
+			"settings":
+			{
+				"buffer_size": 1086,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/portela/Programming/git/debt-transfer/test/controllers/debt_transfer_controller_test.rb",
+			"settings":
+			{
+				"buffer_size": 2021,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "sort",
+		"selected_items":
+		[
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"lint",
+				"SublimeLint: Show All Errors"
+			],
+			[
+				"show all",
+				"SublimeLint: Show All Errors"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"sublimelint",
+				"Preferences: SublimeLint – User"
+			],
+			[
+				"linter",
+				"SublimeLint: Next Error"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 475.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/portela/Programming/git/debt-transfer",
+		"/Users/portela/Programming/git/debt-transfer/app",
+		"/Users/portela/Programming/git/debt-transfer/app/assets",
+		"/Users/portela/Programming/git/debt-transfer/app/assets/javascripts",
+		"/Users/portela/Programming/git/debt-transfer/app/assets/stylesheets",
+		"/Users/portela/Programming/git/debt-transfer/app/controllers",
+		"/Users/portela/Programming/git/debt-transfer/app/helpers",
+		"/Users/portela/Programming/git/debt-transfer/app/models",
+		"/Users/portela/Programming/git/debt-transfer/app/views",
+		"/Users/portela/Programming/git/debt-transfer/app/views/debt_transfer",
+		"/Users/portela/Programming/git/debt-transfer/app/views/layouts",
+		"/Users/portela/Programming/git/debt-transfer/config",
+		"/Users/portela/Programming/git/debt-transfer/test",
+		"/Users/portela/Programming/git/debt-transfer/test/controllers",
+		"/Users/portela/Programming/git/debt-transfer/test/helpers",
+		"/Users/portela/Programming/git/debt-transfer/test/integration",
+		"/Users/portela/Programming/git/debt-transfer/tmp/cache/assets",
+		"/Users/portela/Programming/git/debt-transfer/vendor/assets",
+		"/Users/portela/Programming/git/debt-transfer/vendor/assets/javascripts",
+		"/Users/portela/Programming/git/debt-transfer/vendor/assets/stylesheets"
+	],
+	"file_history":
+	[
+		"/Users/portela/Programming/git/debt-transfer/Gemfile",
+		"/Users/portela/Programming/git/debt-transfer/app/assets/stylesheets/application.css",
+		"/Users/portela/Programming/git/debt-transfer/app/assets/javascripts/application.js",
+		"/Users/portela/Programming/git/debt-transfer/app/views/debt_transfer/simulate_debts.html.erb",
+		"/Users/portela/Programming/git/debt-transfer/app/views/layouts/home.html.erb",
+		"/Users/portela/Programming/git/debt-transfer/app/controllers/application_controller.rb",
+		"/Users/portela/Programming/git/debt-transfer/test/test_helper.rb",
+		"/Users/portela/Programming/git/debt-transfer/Gemfile.lock",
+		"/Users/portela/Programming/git/debt-transfer/.gitignore",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/configure_hostname.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/group_vars/zookeeper-dc3/iptables.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/roles/zookeeper/templates/myid.j2",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/configure_librato.py",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/production.ini.sample",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/staging.ini.sample",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/test.ini.sample",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/group_vars/zookeeper-dc1/zookeeper.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/group_vars/zookeeper-dc3/zookeeper.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/roles/zookeeper/templates/zoo.cfg.j2",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/configure_zookeeper.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/kafka/supervisor.conf",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/group_vars/zookeeper-dc1/iptables.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/group_vars/s1search/iptables.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/group_vars/zookeeper-dc3/ssh.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/group_vars/kafka/firewall.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/group_vars/zookeeper/firewall.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/group_vars/zookeeper/monitoring.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/group_vars/kafka-dc1/iptables.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/group_vars/kafka-dc2/iptables.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/group_vars/kafka-dc3/iptables.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/group_vars/zookeeper-dc1/ssh.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/group_vars/zookeeper-dc2/ssh.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/group_vars/zookeeper-dc2/iptables.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/group_vars/aerospike-prod-dc1/iptables.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/kafka/zoo.cfg",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/kafka/server.properties",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/group_vars/s1search/firewall.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/generate_stress_test_data.py",
+		"/Users/portela/Programming/git/simbiose/slicingdice-python/tests_and_examples/examples/count_entity.json",
+		"/Users/portela/Programming/git/simbiose/slicing_dice-platform/sdsite/templates/docs/en-us/full.html",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/configure_s1search.yml",
+		"/Users/portela/Programming/git/simbiose/slicing_dice-api/api/app.py",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/roles/collectd/templates/jvm.conf.j2",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/stress_data.json",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/kafka/supervisord.conf",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/beans.txt",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/roles/collectd/defaults/main.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/configure_kafka.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/roles/collectd/tasks/main.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/s1search/zoo.cfg",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/group_vars/s1search/monitoring.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/kafka/stop_kafka.sh",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/kafka/start_kafka.sh",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/kafka/start_zookeeper.sh",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/group_vars/kafka/monitoring.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/s1search/start_zookeeper.sh",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/s1search/stop_zookeeper.sh",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/kafka/stop_zookeeper.sh",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/s1search/zookeeper-log4j.properties.j2",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/kafka/zookeeper-log4j.properties.j2",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/kafka/kafka-log4j.properties.j2",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/s1search/zookeeper-log4j.properties",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/roles/ssh/tasks/copy_ssh.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/configure_open_files.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/configure_hardening.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/roles/collectd/templates/zookeeper.conf.j2",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/configure_new_user.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/configure_monitoring.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/zoo.cfg",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/server.properties",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/kafka-log4j.properties",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/zookeeper-log4j.properties",
+		"/Users/portela/Programming/git/simbiose/slicing_dice-etc/todo.txt",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/group_vars/aerospike-backup-dc2/iptables.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/roles/collectd/templates/collectd.logrotate.j2",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/group_vars/kafka/iptables.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/roles/deploy-ssh/tasks/main.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/group_vars/aerospike-backup-dc3/iptables.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/group_vars/elasticsearch/iptables.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/configure_deploy_ssh.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/group_vars/mysql-backup-dc2/iptables.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/group_vars/mysql-backup-dc3/iptables.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/configure_api.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/roles/collectd/templates/df.conf.j2",
+		"/Users/portela/Programming/git/simbiose/slicing_dice-api/api/lib/field.py",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/remove_user.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/README.md",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/print_user_passwords.py",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/configure_all.sh",
+		"/Users/portela/Programming/git/simbiose/slicing_dice-api/api/lib/util.py",
+		"/Users/portela/Programming/git/simbiose/slicing_dice-api/api/models.py",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/roles/collectd/templates/filters.conf.j2",
+		"/Users/portela/Programming/git/simbiose/products_corporate_site/slicingdice/index.html",
+		"/Users/portela/Programming/git/simbiose/slicing_dice-platform/sdsite/core/templatetags/sd_filters.py",
+		"/Users/portela/Programming/git/simbiose/slicing_dice-api/.github/ISSUE_TEMPLATE.md",
+		"/Users/portela/Programming/git/simbiose/products_corporate_site/assets/product_slicingdice/js/convert-dates.js",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/production.ini",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/group_vars/panel/iptables.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/roles/iptables/templates/rules.j2",
+		"/Users/portela/Programming/git/simbiose/products_corporate_site/slicingdice/online-demo.html",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/group_vars/aerospike/firewall.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/group_vars/panel/firewall.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/group_vars/redis/iptables.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/configure_cluster_ssh_keys.sh",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/group_vars/redis/firewall.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/group_vars/elasticsearch/firewall.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/group_vars/mysql/firewall.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/group_vars/mysql/iptables.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/production.ini.bak",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/update_panel.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/update_api.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/configure_docker.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/configure_iptables.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/configure_simbiose_user.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/copy_cluster_ssh_key.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/create_cluster_ssh_key.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/configure_utc.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/update_machines.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/install_python2.yml",
+		"/Users/portela/Programming/git/simbiose/products_corporate_site/assets/sass/templates/pages/team-and-history/main.scss",
+		"/Users/portela/Programming/git/simbiose/products_corporate_site/slicingdice/team-and-history.html",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/requirements.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/configure_mysql_hardening.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/roles/dev-sec.mysql-hardening/tasks/configure.yml",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/roles/dev-sec.mysql-hardening/tasks/mysql_secure_installation.yml",
+		"/Users/portela/Desktop/cloud.html",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/host_vars/163.172.60.182",
+		"/Users/portela/Programming/git/simbiose/ansible-scripts/host_vars/163.172.59.236"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+			"",
+			"README.txt",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"invoice_value",
+			":q",
+			"debt",
+			"'",
+			"cosigned",
+			": 0",
+			"monthly_interest",
+			"=>",
+			",",
+			"= ",
+			"value",
+			"type=\"",
+			",",
+			"pg",
+			"byebug",
+			"# ",
+			"dest=/zookeeper",
+			"='",
+			"kafka",
+			"kafka/",
+			"root",
+			"keys/",
+			"zookeeper-dc3",
+			"zookeeper-dc1",
+			"    # Zookeeper (external)\n    - 2181",
+			"    # Zookeeper (external)\n    - 2181\n    # Zookeeper (service)\n    - 2888\n    - 3888",
+			"    # Zookeeper (external)\n    - 2181",
+			"    # Zookeeper (external)\n    - 2181\n    # Zookeeper (service)\n    - 2888\n    - 3888",
+			"    # Zookeeper (external)\n    - 2181",
+			"    # Zookeeper (external)\n    - 2181\n    # Zookeeper (service)\n    - 2888\n    - 3888",
+			"dc1",
+			"# Zookeeper (service)\n    - 2888\n    - 3888",
+			"qBu8iHNHkB7Y",
+			"4262q5oBBZin",
+			"kafka",
+			"OneMinuteRate",
+			"Count",
+			"counter",
+			"gauge",
+			"Attribute",
+			"Value",
+			"telles",
+			"MeanRate",
+			"counter",
+			"{\n        \"name\"",
+			"\"name\":",
+			"with +3h timezone when indexing.",
+			"Test for a \\\"COUNT ENTITY\\\" query using fields \\\"INTEGER\\\" and \\\"STRING-TIME-SERIES\\\", operator \\\"AND\\\" and parameters \\\"EQUALS\\\", \\\"BETWEEN\\\" and \\\"MINFREQ\\\" with +3h timezone when indexing.",
+			"requests per second",
+			"<li>At most 10 requests per second.</li>",
+			"<li>At most 1 request per second</li>",
+			"request</li>",
+			"<li>At most 600 requests per minute (10 requests per second)</li>",
+			"<li>At most 5,000 requests per second.</li>",
+			"API limits",
+			"<li>At most 60 requests per minute (10 requests per second)</li>",
+			"<li>At most 10 requests per second</li>",
+			"{%",
+			"{% endif %}",
+			"{% if",
+			"counter",
+			"162.158",
+			"Count",
+			"counter",
+			"TotalTimeMs",
+			"partition",
+			"-log4j",
+			"log4j-",
+			"zookeeper",
+			"shrinks",
+			"offset-fetch",
+			"FetchConsumer",
+			"LogFlushRateAndTimeMs",
+			"BytesInPerSec",
+			"TopicsBytesInPerSec",
+			"\\\"",
+			"MessagesInPerSec",
+			"AllTopics",
+			"BrokerTopicMetrics",
+			"kafka.log:name=Size",
+			"kafka.log:name=NumLogSegments",
+			"kafka.log:name=LogStartOffset",
+			"kafka.log:name=LogEndOffset",
+			"kafka.cluster:name=UnderReplicated",
+			"\"\n        InstancePrefix",
+			"        ObjectName",
+			"        </Value>",
+			"        <Value>",
+			"            ",
+			"           ",
+			"          ",
+			"         ",
+			"        ",
+			"\n",
+			"start",
+			"s 0",
+			"MaxBackupIndex=7",
+			"log4j.appender.stdout.MaxBackupIndex=7",
+			"kafka.logs.dir",
+			"100MB",
+			"kafkaAppender",
+			".File=${kafka.logs.dir}",
+			".DatePattern='.'yyyy-MM-dd-HH",
+			"log4j.appender.kafkaAppender.DatePattern='.'yyyy-MM-dd-HH",
+			"DailyRollingFileAppender",
+			"hermogenes",
+			"self.services",
+			"find_service",
+			"zookeeper",
+			"s1search",
+			"backup",
+			" librato_zookeeper=true",
+			"librato_hostname",
+			"163",
+			"ansible_ssh_user",
+			"198",
+			"ansible_ssh_user",
+			"hardening",
+			"88.99.12.",
+			"ansible_ssh_user",
+			"librato_hostname",
+			"librato",
+			"librato_hostname",
+			"ansible_ssh_user",
+			"\n",
+			"librato_hostname",
+			"198.245.49.65",
+			"SentryAppender"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"an \\\"AGGREGATION\\\"",
+			"\\\"",
+			"\"",
+			"/",
+			"saved/:query_name",
+			"saved/:query-name",
+			"cookie ID",
+			"website",
+			"web site",
+			"</code></pre>",
+			"}</code></pre>\n\n                                    <pre><code class=\"hljs json\"><div class=\"column-header\">Data Indexing Example</div>",
+			"<pre><code class=\"hljs json\"><div class=\"column-header\">",
+			"Z",
+			"memory_set",
+			"% unicode(analysis)",
+			"if DEBUG: print",
+			"(path, filename, progress, score)",
+			"\"",
+			"",
+			"'",
+			"",
+			"s.",
+			"self.sender.",
+			"logs=",
+			"log=",
+			"self.usual_log",
+			"self.anomalous_log",
+			"self.learning_logs",
+			"self.logs",
+			"self.log",
+			"chr",
+			"",
+			"/etc/httpd",
+			"Example:",
+			"SimpleTable",
+			"Simple"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/portela/Programming/git/debt-transfer"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/portela/Programming/git/debt-transfer/config/routes.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 113,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								83,
+								83
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/portela/Programming/git/debt-transfer/app/controllers/debt_transfer_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2094,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1927,
+								1927
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 456.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "simulate.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 131,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								131,
+								131
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "home.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1086,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								543,
+								543
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "/Users/portela/Programming/git/debt-transfer/test/controllers/debt_transfer_controller_test.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2021,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2009,
+								2009
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 186.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 98.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Programming/git/simbiose/slicing_dice-etc/slicing-dice.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 400.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 691.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 200.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

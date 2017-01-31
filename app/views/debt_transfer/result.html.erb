@@ -1,0 +1,7 @@
+<h1>Dívida total</h1>
+
+<p><b>Cartão de crédito atrasado:</b> <%= number_to_currency(@overdue_credit_card_debt, unit: "R$", separator: ",", delimitier: ".") %></p>
+
+<p><b>Cartão de crédito parcelado:</b> <%= number_to_currency(@credit_card_debt, unit: "R$", separator: ",", delimitier: ".") %></p>
+<p><b>Cheque especial:</b> <%= number_to_currency(@check_debt, unit: "R$", separator: ",", delimitier: ".") %></p>
+<p><b>Crédito consignado:</b> <%= number_to_currency(@payday_loan_debt, unit: "R$", separator: ",", delimitier: ".") %></p>
