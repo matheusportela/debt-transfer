@@ -18,7 +18,6 @@ class InterestRateTest < ActiveSupport::TestCase
         assert_equal 0.0, interest_rate.get_rate(date: "12/2015")
         assert_equal 0.1, interest_rate.get_rate(date: "01/2016")
         assert_equal 0.2, interest_rate.get_rate(date: "02/2016")
-        assert_equal 0.0, interest_rate.get_rate(date: "03/2016")
     end
 
     test "should set series of interest rate" do
@@ -34,7 +33,6 @@ class InterestRateTest < ActiveSupport::TestCase
         assert_equal 0.1, interest_rate.get_rate(date: "01/2016")
         assert_equal 0.2, interest_rate.get_rate(date: "02/2016")
         assert_equal 0.3, interest_rate.get_rate(date: "03/2016")
-        assert_equal 0.0, interest_rate.get_rate(date: "04/2016")
     end
 
     test "should iterate in interest rates" do
@@ -64,8 +62,52 @@ class InterestRateTest < ActiveSupport::TestCase
 
         interest_rate.next()
         assert_equal 0.5, interest_rate.get_rate
+    end
+
+    test "should return the most recent interest rate for newer dates" do
+        interest_rate = InterestRate.new
+        rates = {
+            "01/2016" => 0.1,
+            "02/2016" => 0.2,
+            "03/2016" => 0.3
+        }
+        interest_rate.set_rates rates
+        interest_rate.set_begin "06/2016"
+        assert_equal 0.3, interest_rate.get_rate
+    end
+
+    test "should iterate to most recent interest rate" do
+        interest_rate = InterestRate.new
+        rates = {
+            "01/2016" => 0.1,
+            "02/2016" => 0.2,
+            "03/2016" => 0.3,
+            "05/2016" => 0.5
+        }
+        interest_rate.set_rates rates
+        interest_rate.set_begin "12/2015"
+
+        assert_equal 0.0, interest_rate.get_rate
+
+        interest_rate.next()
+        assert_equal 0.1, interest_rate.get_rate
+
+        interest_rate.next()
+        assert_equal 0.2, interest_rate.get_rate
+
+        interest_rate.next()
+        assert_equal 0.3, interest_rate.get_rate
 
         interest_rate.next()
         assert_equal 0.0, interest_rate.get_rate
+
+        interest_rate.next()
+        assert_equal 0.5, interest_rate.get_rate
+
+        interest_rate.next()
+        assert_equal 0.5, interest_rate.get_rate
+
+        interest_rate.next()
+        assert_equal 0.5, interest_rate.get_rate
     end
 end

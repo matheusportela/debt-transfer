@@ -70,4 +70,15 @@ class DebtSimulatorTest < ActiveSupport::TestCase
         total = simulator.simulate_debt debt_type, 1000.00, "03/2011", 200.00
         assert total < Float::INFINITY
     end
+
+    test "should simulate debt with recent dates using last interest rate" do
+        debt_type = :installment_credit_card
+        simulator = DebtSimulator.new debt_type: debt_type
+
+        total = simulator.simulate_debt debt_type, 1000.00, "01/2017", 200.00
+        assert_equal 1392.25, total
+
+        total = simulator.simulate_debt debt_type, 1000.00, "01/2018", 200.00
+        assert_equal 1392.25, total
+    end
 end
