@@ -54,6 +54,6 @@ class DebtSimulatorTest < ActiveSupport::TestCase
         debt_type = :payday_loan
         simulator = DebtSimulator.new debt_type: debt_type
         total = simulator.simulate_debt debt_type, 1000.00, "03/2011", 50.00
-        assert_equal 1387.12, total
+        assert_equal 1339.88, total
     end
 end
