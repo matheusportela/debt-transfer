@@ -56,4 +56,18 @@ class DebtSimulatorTest < ActiveSupport::TestCase
         total = simulator.simulate_debt debt_type, 1000.00, "03/2011", 50.00
         assert_equal 1339.88, total
     end
+
+    test "should return infinity when debt cannot be payed in 120 months" do
+        debt_type = :revolving_credit_card
+        simulator = DebtSimulator.new debt_type: debt_type
+
+        total = simulator.simulate_debt debt_type, 1000.00, "03/2011", 195.32
+        assert_equal Float::INFINITY, total
+
+        total = simulator.simulate_debt debt_type, 1000.00, "03/2011", 100.00
+        assert_equal Float::INFINITY, total
+
+        total = simulator.simulate_debt debt_type, 1000.00, "03/2011", 200.00
+        assert total < Float::INFINITY
+    end
 end

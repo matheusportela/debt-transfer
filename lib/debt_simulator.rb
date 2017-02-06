@@ -53,16 +53,21 @@ class DebtSimulator
         payed = 0.00
         months = 0
 
-        while not debt.is_payed?
+        while not debt.is_payed? and months < @max_months
             payed += debt.pay monthly_payment
             debt.apply_interest interest_rates.get_rate
-            months += 1
 
             if debt_type != :payday_loan
                 interest_rates.next
             end
+
+            months += 1
+
+            if months == @max_months
+                payed = Float::INFINITY
+            end
         end
 
-        payed
+        payed.round(2)
     end
 end
