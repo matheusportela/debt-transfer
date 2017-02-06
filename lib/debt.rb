@@ -3,6 +3,10 @@ class Debt
         @debt = debt
     end
 
+    def is_payed?
+        @debt == 0.00
+    end
+
     def debt
         @debt.round(2)
     end
@@ -56,7 +60,7 @@ class Debt
     def pay_entire_debt_with_fixed_interest payment, interest
         payed = 0.00
 
-        until @debt == 0.00
+        until is_payed?
             payed += pay_with_fixed_interest payment, interest
         end
 
@@ -66,7 +70,7 @@ class Debt
     def pay_entire_debt_with_variable_interest payment, interest_rates
         payed = 0.00
 
-        until @debt == 0.00
+        until is_payed?
             interest = interest_rates.shift
             payed += pay_with_fixed_interest payment, interest
         end

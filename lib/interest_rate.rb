@@ -17,13 +17,13 @@ class InterestRate
         end
     end
 
-    def load_rate rate, date
+    def set_rate rate, date
         @rates[date] = rate
     end
 
-    def load_rates rates
+    def set_rates rates
         rates.each do |date, rate|
-            load_rate rate, date
+            set_rate rate, date
         end
     end
 
