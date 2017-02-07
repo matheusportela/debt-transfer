@@ -1,28 +1,49 @@
-<h1>Dívida total</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DebtTransfer</title>
+    <%= csrf_meta_tags %>
 
-<table>
-    <thead>
-        <tr>
-            <td>Tipo de crédito</td>
-            <td>Total</td>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Crédito consignado</td>
-            <td><%= format_debt(@debts[:payday_loan]) %></td>
-        </tr>
-        <tr>
-            <td>Cheque especial</td>
-            <td><%= format_debt(@debts[:check]) %></td>
-        </tr>
-        <tr>
-            <td>Cartão de crédito parcelado</td>
-            <td><%= format_debt(@debts[:installment_credit_card]) %></td>
-        </tr>
-        <tr>
-            <td>Cartão de crédito atrasado</td>
-            <td><%= format_debt(@debts[:revolving_credit_card]) %></td>
-        </tr>
-    </tbody>
-</table>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <div class="content">
+        <div class="title">
+            <h1>Dívida total</h1>
+        </div>
+
+        <div class="price-table">
+            <table>
+                <thead>
+                    <tr>
+                        <td>Tipo de crédito</td>
+                        <td>Total</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Crédito consignado</td>
+                        <td><%= format_debt(@debts[:payday_loan]) %></td>
+                    </tr>
+                    <tr>
+                        <td>Cheque especial</td>
+                        <td><%= format_debt(@debts[:check]) %></td>
+                    </tr>
+                    <tr>
+                        <td>Cartão de crédito parcelado</td>
+                        <td><%= format_debt(@debts[:installment_credit_card]) %></td>
+                    </tr>
+                    <tr>
+                        <td>Cartão de crédito atrasado</td>
+                        <td><%= format_debt(@debts[:revolving_credit_card]) %></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+  </body>
+</html>

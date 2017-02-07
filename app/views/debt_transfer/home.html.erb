@@ -1,47 +1,67 @@
-<h1>Saiba as suas opções</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DebtTransfer</title>
+    <%= csrf_meta_tags %>
 
-<p>Saiba se vale a pena parcelar o seu Cartão de Crédito ou mudar de modalidade</p>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
 
-<%= form_tag '/result', method: 'get' do %>
-    <%= label_tag(:invoice_value, "Valor da Fatura") %>
-    <%= text_field_tag(:invoice_value) %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
 
-    <%= label_tag(:invoice_due_date, "Mês da Fatura") %>
-    <%= text_field_tag(:invoice_due_date) %>
+  <body>
+    <div class="content">
+      <div class="title"><h1>Saiba as suas opções</h1></div>
+      <div class="subtitle"><h2>Saiba se vale a pena parcelar o seu Cartão de Crédito ou mudar de modalidade</h2></div>
 
-    <%= label_tag(:minimum_charge, "Parcela Mínima") %>
-    <%= text_field_tag(:minimum_charge) %>
+      <div class="input-form">
+        <%= form_tag '/result', method: 'get' do %>
+          <table>
+              <tr>
+                <td>
+                  <%= text_field_tag :invoice_value, nil, placeholder: "Valor da Fatura" %>
+                </td>
+                <td><%= text_field_tag :invoice_due_date, nil, placeholder: "Mês da Fatura" %></td>
+              </tr>
+              <tr>
+                <td><%= text_field_tag :minimum_charge, nil, placeholder: "Parcela Mínima" %></td>
+              </tr>
+              <tr>
+                <td><%= submit_tag "Diga lá" %></td>
+              </tr>
+          </table>
+        <% end %>
+      </div>
 
-    <%= submit_tag("Diga lá") %>
-<% end %>
-
-<div id="#suggestion" style="display: none">
-    <p></p>
-</div>
-
-<table>
-    <thead>
-        <tr>
-            <td>Modalidade</td>
-            <td>Mínimo</td>
-            <td>Máximo</td>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Cartão de Crédito</td>
-            <td>R$ 1.000,00</td>
-            <td>R$ 5.000,00</td>
-        </tr>
-        <tr>
-            <td>Cheque Especial</td>
-            <td>R$ 500,00</td>
-            <td>R$ 1.500,00</td>
-        </tr>
-        <tr>
-            <td>Consignado</td>
-            <td>R$ 100,00</td>
-            <td>R$ 500,00</td>
-        </tr>
-    </tbody>
-</table>
+      <div class="price-table">
+        <table>
+            <thead>
+                <tr>
+                    <td>Modalidade</td>
+                    <td>Mínimo</td>
+                    <td>Máximo</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Cartão de Crédito</td>
+                    <td>R$ 1.000,00</td>
+                    <td>R$ 5.000,00</td>
+                </tr>
+                <tr>
+                    <td>Cheque Especial</td>
+                    <td>R$ 500,00</td>
+                    <td>R$ 1.500,00</td>
+                </tr>
+                <tr>
+                    <td>Consignado</td>
+                    <td>R$ 100,00</td>
+                    <td>R$ 500,00</td>
+                </tr>
+            </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

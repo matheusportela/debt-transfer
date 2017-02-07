@@ -1,3 +1,110 @@
 // Place all the styles related to the DebtTransfer controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+$primary-color: #555;
+$negative-color: #fff;
+$button-color: #56ac56;
+
+$form-border-color: #ccc;
+
+$table-border-color: #111;
+$table-header-color: #666;
+$table-odd-row-color: #ddd;
+$table-even-row-color: #fff;
+
+.content {
+    display: block;
+    color: $primary-color;
+    font-family: Roboto;
+    font-size: 0.85em;
+
+    .title {
+        font-family: Open Sans;
+        font-size: 1.5em;
+        text-align: center;
+
+        h1 {
+            margin-bottom: 10px;
+        }
+    }
+
+    .subtitle {
+        font-size: 0.65em;
+        text-align: center;
+
+        h2 {
+            margin-top: 10px;
+        }
+    }
+
+    .input-form {
+        margin: 35px 0;
+        text-align: center;
+
+        form {
+            table {
+                margin: 0 auto;
+                width: 430px;
+                border: none;
+
+                input {
+                    height: 35px;
+                    padding: 10px;
+                    width: 100%;
+                    border: 1px solid $form-border-color;
+
+                    -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+                    -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+                    box-sizing: border-box;
+                }
+
+                input[type=submit] {
+                    background-color: $button-color;
+                    border: none;
+                    color: $negative-color;
+                    border-radius: 4px;
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+
+    .price-table {
+        margin: 30px 0;
+
+        table {
+            border: 1px solid $table-border-color;
+            border-collapse: collapse;
+            margin: 0 auto;
+
+            thead {
+                background-color: $table-header-color;
+                color: $negative-color;
+
+                td {
+                    border: 1px solid $table-border-color;
+                    padding: 10px;
+                    text-align: center;
+                    font-weight: bold;
+                }
+            }
+
+            tbody {
+                tr:nth-of-type(odd) {
+                    background-color: $table-odd-row-color;
+                }
+
+                tr:nth-of-type(even) {
+                    background-color: $table-even-row-color;
+                }
+
+                td {
+                    border: 1px solid $table-border-color;
+                    padding: 10px 30px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
