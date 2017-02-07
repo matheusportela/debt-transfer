@@ -11,6 +11,17 @@ class DebtSimulatorTest < ActiveSupport::TestCase
         assert_equal false, simulator.is_valid?(:secured_loan)
     end
 
+    test "should get all available types of debt" do
+        simulator = DebtSimulator.new
+        debt_types = [
+            :revolving_credit_card,
+            :installment_credit_card,
+            :payday_loan,
+            :check
+        ]
+        assert_equal debt_types, simulator.debt_types
+    end
+
     test "should load interest rates from CSV file" do
         simulator = DebtSimulator.new
         assert_equal 0.2689, simulator.get_interest_rate(
@@ -31,35 +42,35 @@ class DebtSimulatorTest < ActiveSupport::TestCase
 
     test "should simulate revolving credit card debt" do
         debt_type = :revolving_credit_card
-        simulator = DebtSimulator.new debt_type: debt_type
+        simulator = DebtSimulator.new
         total = simulator.simulate_debt debt_type, 100.00, "01/2016", 50.00
         assert_equal 125.08, total
     end
 
     test "should simulate installment credit card debt" do
         debt_type = :installment_credit_card
-        simulator = DebtSimulator.new debt_type: debt_type
+        simulator = DebtSimulator.new
         total = simulator.simulate_debt debt_type, 100.00, "01/2016", 50.00
         assert_equal 106.75, total
     end
 
     test "should simulate check debt" do
         debt_type = :check
-        simulator = DebtSimulator.new debt_type: debt_type
+        simulator = DebtSimulator.new
         total = simulator.simulate_debt debt_type, 100.00, "01/2016", 50.00
         assert_equal 115.16, total
     end
 
     test "should simulate payday loan debt with fixed interest" do
         debt_type = :payday_loan
-        simulator = DebtSimulator.new debt_type: debt_type
+        simulator = DebtSimulator.new
         total = simulator.simulate_debt debt_type, 1000.00, "03/2011", 50.00
         assert_equal 1339.88, total
     end
 
     test "should return infinity when debt cannot be payed in 120 months" do
         debt_type = :revolving_credit_card
-        simulator = DebtSimulator.new debt_type: debt_type
+        simulator = DebtSimulator.new
 
         total = simulator.simulate_debt debt_type, 1000.00, "03/2011", 195.32
         assert_equal Float::INFINITY, total
@@ -73,7 +84,7 @@ class DebtSimulatorTest < ActiveSupport::TestCase
 
     test "should simulate debt with recent dates using last interest rate" do
         debt_type = :installment_credit_card
-        simulator = DebtSimulator.new debt_type: debt_type
+        simulator = DebtSimulator.new
 
         total = simulator.simulate_debt debt_type, 1000.00, "01/2017", 200.00
         assert_equal 1392.25, total

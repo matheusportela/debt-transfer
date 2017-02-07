@@ -1,7 +1,28 @@
 <h1>Dívida total</h1>
 
-<p><b>Cartão de crédito atrasado:</b> <%= number_to_currency(@overdue_credit_card_debt, unit: "R$", separator: ",", delimitier: ".") %></p>
-
-<p><b>Cartão de crédito parcelado:</b> <%= number_to_currency(@credit_card_debt, unit: "R$", separator: ",", delimitier: ".") %></p>
-<p><b>Cheque especial:</b> <%= number_to_currency(@check_debt, unit: "R$", separator: ",", delimitier: ".") %></p>
-<p><b>Crédito consignado:</b> <%= number_to_currency(@payday_loan_debt, unit: "R$", separator: ",", delimitier: ".") %></p>
+<table>
+    <thead>
+        <tr>
+            <td>Tipo de crédito</td>
+            <td>Total</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Crédito consignado</td>
+            <td><%= format_debt(@debts[:payday_loan]) %></td>
+        </tr>
+        <tr>
+            <td>Cheque especial</td>
+            <td><%= format_debt(@debts[:check]) %></td>
+        </tr>
+        <tr>
+            <td>Cartão de crédito parcelado</td>
+            <td><%= format_debt(@debts[:installment_credit_card]) %></td>
+        </tr>
+        <tr>
+            <td>Cartão de crédito atrasado</td>
+            <td><%= format_debt(@debts[:revolving_credit_card]) %></td>
+        </tr>
+    </tbody>
+</table>

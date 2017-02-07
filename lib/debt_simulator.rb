@@ -3,9 +3,8 @@ require_relative '../lib/debt'
 require_relative '../lib/interest_rate'
 
 class DebtSimulator
-    def initialize debt_type: nil
+    def initialize
         @max_months = 120
-        @debt_type = debt_type
         @headers = {
             :revolving_credit_card => '22022 - Average interest rate of nonearmarked new credit operations - Households - Credit card revolving credit - % p.y.',
             :installment_credit_card => '22023 - Average interest rate of nonearmarked new credit operations - Households - Credit card financing - % p.y.',
@@ -14,6 +13,10 @@ class DebtSimulator
         }
         @interest_rates = {}
         load_interest_rates "public/interest_rates.csv"
+    end
+
+    def debt_types
+        @headers.keys
     end
 
     def is_valid? debt_type
